@@ -1,6 +1,6 @@
 Gruszki
 1230
-1000
+1010
 Parter
 Wisnie
 1231
@@ -12,6 +12,6 @@ Pomarancze
 Pierwsze pietro
 Winogrono
 1233
-1000
+1020
 Pierwsze pietro
 

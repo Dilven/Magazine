@@ -19,7 +19,7 @@ public:
 	//wczytuje towary  z pliku
 	void wyswietl(); // wyswietla liste towarów
 
-	Towar(int);
+	Towar();
 	~Towar();
 };
 

@@ -16,7 +16,7 @@ void Towar::wczytaj()
 
 	if (plik.good() == false)
 	{
-		cout << "Nie uda³o otworzyæ siê pliku" << endl;
+		cout << "Nie udalo otworzyc sie pliku" << endl;
 		exit(0);
 	}
 	int nr_linii=(ile-1)*4+1;
@@ -54,20 +54,19 @@ void Towar::wyswietl()
 	cout <<"Towar: "<< nazwa << endl;
 	cout <<"ID: "<< id << endl;
 	cout <<"Ilosc: "<< ilosc << endl;
-	cout <<"Polozenie: " << polozenie << endl;
+	cout <<"Polozenie: " << polozenie << endl<<endl;
 
 }
-Towar::Towar(int i)
+Towar::Towar() //Konstruktor
 {
 
-        ile=i; // zliczanie obiektu potrzebne do czytania z pliku
 
 
 }
 
 
 
-Towar::~Towar()
+Towar::~Towar() // Destruktor
 {
-    ile--; //zmniejsza liczbe obiektow
+
 }

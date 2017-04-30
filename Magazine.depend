@@ -1,14 +1,29 @@
 # depslib dependency file v1.0
-1493512914 source:c:\users\krystian\desktop\programy c++\magazine\main.cpp
+1493588467 source:c:\users\krystian\desktop\programy c++\magazine\main.cpp
 	"Towar.h"
 	<iostream>
+	<list>
 	<cstring>
+	<windows.h>
+	"Zamowienie.h"
+	<cstdlib>
+	<time.h>
 
-1493513206 c:\users\krystian\desktop\programy c++\magazine\towar.h
+1493545258 c:\users\krystian\desktop\programy c++\magazine\towar.h
 	<iostream>
 
-1493513052 source:c:\users\krystian\desktop\programy c++\magazine\towar.cpp
+1493545989 source:c:\users\krystian\desktop\programy c++\magazine\towar.cpp
 	"Towar.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<sstream>
+
+1493579812 c:\users\krystian\desktop\programy c++\magazine\zamowienie.h
+	<iostream>
+
+1493579918 source:c:\users\krystian\desktop\programy c++\magazine\zamowienie.cpp
+	"Zamowienie.h"
 	<iostream>
 	<fstream>
 	<cstdlib>

@@ -32,6 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Towar.cpp" />
+		<Unit filename="Towar.h" />
+		<Unit filename="Zamowienie.cpp" />
+		<Unit filename="Zamowienie.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
